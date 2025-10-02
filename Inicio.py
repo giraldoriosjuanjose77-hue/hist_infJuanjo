@@ -140,7 +140,7 @@ if st.session_state.analysis_done:
                 max_tokens=500,
             )
             
-            st.markdown("**📖 Tu historia:**")
+            st.markdown("**📖 Datos sobre el Objeto:**")
             st.write(story_response.choices[0].message.content)
 
 # Warnings for user action required
